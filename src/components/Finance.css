@@ -1,0 +1,16 @@
+.list-comp {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.list-comp li {
+  background: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 10px;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+}

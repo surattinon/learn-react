@@ -1,14 +1,38 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+// import { render } from "@testing-library/react";
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+// import BasuEx from "./components/extendBasu"; // From extended comp
+import reportWebVitals from "./reportWebVitals";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+// How to create component with React
+
+// Functional
+// function BasuFunc() {
+//   return (
+//     <>
+//       <h1>Hello React</h1>
+//       <div>
+//         <h2>Hello</h2>
+//       </div>
+//     </>
+//   );
+// }
+
+// Class
+// class BasuClass extends React.Component {
+//   render() {
+//     return <h1>Helle React from Class basu</h1>;
+//   }
+// }
+
 root.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>
+  </React.StrictMode>,
 );
 
 // If you want to start measuring performance in your app, pass a function
